@@ -26,27 +26,27 @@ function MyPage() {
                 <hr className='border-solid border-[#0046af] 6px mb-8'></hr>
 
                 {/* 메뉴 항목 */}
-                <div className="flex items-center mb-4 cursor-pointer" onClick={() => navigateToPage('/edit-nickname')}>
+                <div className="flex items-center mb-4 cursor-pointer" onClick={() => navigateToPage('/OnConstruction')}>
                     <FaPencilAlt className="text-3xl text-[#0046af] mr-4" />
                     <h2 className="text-xl font-bold text-[#0046af]">닉네임 변경</h2>
                 </div>
 
-                <div className="flex items-center mb-4 cursor-pointer" onClick={() => navigateToPage('/edit-account')}>
+                <div className="flex items-center mb-4 cursor-pointer" onClick={() => navigateToPage('/OnConstruction')}>
                     <FaMoneyCheckAlt className="text-3xl text-[#0046af] mr-4" />
                     <h2 className="text-xl font-bold text-[#0046af]">계좌번호 변경</h2>
                 </div>
 
-                <div className="flex items-center mb-4 cursor-pointer" onClick={() => navigateToPage('/edit-phone')}>
+                <div className="flex items-center mb-4 cursor-pointer" onClick={() => navigateToPage('/OnConstruction')}>
                     <FaPhone className="text-3xl text-[#0046af] mr-4" />
                     <h2 className="text-xl font-bold text-[#0046af]">전화번호 변경</h2>
                 </div>
 
-                <div className="flex items-center mb-4 cursor-pointer" onClick={() => navigateToPage('/reservation-list')}>
+                <div className="flex items-center mb-4 cursor-pointer" onClick={() => navigateToPage('/OnConstruction')}>
                     <FaCalendarAlt className="text-3xl text-[#0046af] mr-4" />
                     <h2 className="text-xl font-bold text-[#0046af]">예약 조회</h2>
                 </div>
 
-                <div className="flex items-center mb-4 cursor-pointer" onClick={() => navigateToPage('/contact')}>
+                <div className="flex items-center mb-4 cursor-pointer" onClick={() => navigateToPage('/OnConstruction')}>
                     <FaQuestionCircle className="text-3xl text-[#0046af] mr-4" />
                     <h2 className="text-xl font-bold text-[#0046af]">개발자에게 문의하기</h2>
                 </div>

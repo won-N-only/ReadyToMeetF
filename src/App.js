@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
 import MainPage from './pages/MainPage';
 import MyPage from './pages/MyPage';
+import OnConstruction from './pages/OnConstruction'
 // import ReservationDetail from './pages/Reservation/Detail';
 // import ReservationCreate from './pages/Reservation/Create';
 // import ReservationList from './pages/Reservation/List';
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/MainPage" element={<MainPage />} />
         <Route path="/" element={<LoginPage />} />
+        <Route path="/OnConstruction" element={<OnConstruction />} />
         <Route path="/MyPage" element={<MyPage />} />
         {/* <Route path="/reservation/detail" element={<ReservationDetail />} /> */}
         {/* <Route path="/reservation/create" element={<ReservationCreate />} /> */}
