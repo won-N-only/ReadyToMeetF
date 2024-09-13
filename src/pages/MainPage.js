@@ -8,6 +8,9 @@ function MainPage() {
   const navigateToMainPage = () => {
     navigate('/Main');
   };
+  const navigateToUserPage = () => {
+    navigate('/User');
+  };
 
   return (
     <div className="flex flex-col items-center min-h-screen bg-white px-4">
@@ -15,9 +18,9 @@ function MainPage() {
       <div className="flex justify-between items-center w-full py-4">
         <button onClick={navigateToMainPage} className="text-6xl text-[#0046af] font-extrabold">M</button>
         <h1 className="text-3xl text-[#0046af] mt-1 font-extrabold">메인 페이지</h1>
-        <div className="text-3xl text-gray-700">
+        <button onClick={navigateToUserPage} className="text-3xl text-gray-700">
           <FaUserCircle className="text-5xl text-[#0046af]"></FaUserCircle>
-        </div>
+        </button>
       </div>
 
       {/* 예약 생성 및 예약 참여 버튼 틀 */}
