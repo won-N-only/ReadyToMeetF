@@ -8,14 +8,14 @@ function MainPage() {
   const navigateToPage = (path) => {
     navigate(path);
   };
-  
+
   return (
     <div className="flex flex-col items-center min-h-screen bg-white px-4">
       {/* 상단 로고와 사용자 아이콘 */}
       <div className="flex justify-between items-center w-full py-4">
-        <button onClick={navigateToPage('/Main')} className="text-6xl text-[#0046af] font-extrabold">M</button >
+        <button onClick={() => navigateToPage('/MainPage')} className="text-6xl text-[#0046af] font-extrabold">M</button >
         <h1 className="text-3xl text-[#0046af] mt-1 font-extrabold">메인 페이지</h1>
-        <button onClick={navigateToPage('/UserPage')} className="text-3xl text-gray-700">
+        <button onClick={() => navigateToPage('/MyPage')} className="text-3xl text-gray-700">
           <FaUserCircle className="text-5xl text-[#0046af]"></FaUserCircle>
         </button>
       </div>
