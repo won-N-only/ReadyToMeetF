@@ -12,7 +12,7 @@ function LoginPage() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-white">
       <div className="flex flex-col items-center space-y-4 mt-auto">
-        <div className="text-9xl font-bold text-[#0046ff]">M</div>
+        <div className="text-9xl font-bold text-[#0046cf]">M</div>
         <h1 className="text-3xl font-bold text-gray-900">Ready To Meet</h1>
         <p className="text-gray-600">노쇼 걱정 없이 만나는 서비스</p>
       </div>
