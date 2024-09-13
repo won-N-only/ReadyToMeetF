@@ -27,7 +27,7 @@ function MainPage() {
           <h1 className="text-[#0046af] text-4xl mt-2 pb-6 font-bold">예약 생성</h1>
         </div>
 
-        <div className="flex flex-col items-center flex-grow " onClick={() => navigateToPage('/OnConstruction')}>
+        <div className="flex flex-col items-center flex-grow " >
           <img onClick={() => navigateToPage('/OnConstruction')} src="/buttonIcons/calendarCheck.png" alt="예약 참여" className="h-auto cursor-pointer" />
           <h1 className="text-[#0046af] text-4xl mt-2 pb-6 font-bold">예약 참여</h1>
         </div>
