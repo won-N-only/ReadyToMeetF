@@ -22,13 +22,13 @@ function MainPage() {
 
       {/* 예약 생성 및 예약 참여 버튼 틀 */}
       <div className="container mx-auto flex justify-between items-center mt-16 max-w-2xl">
-        <div className="flex flex-col items-center flex-grow cursor-pointer" onClick={() => navigateToPage('/ReservationCreatePage')}>
-          <img src="/buttonIcons/calendarPlus.png" alt="예약 생성" className="h-auto" />
+        <div className="flex flex-col items-center flex-grow " >
+          <img onClick={() => navigateToPage('/ReservationCreatePage')} src="/buttonIcons/calendarPlus.png" alt="예약 생성" className="h-auto cursor-pointer" />
           <h1 className="text-[#0046af] text-4xl mt-2 pb-6 font-bold">예약 생성</h1>
         </div>
 
-        <div className="flex flex-col items-center flex-grow">
-          <img src="/buttonIcons/calendarCheck.png" alt="예약 참여" className="h-auto" />
+        <div className="flex flex-col items-center flex-grow " onClick={() => navigateToPage('/OnConstruction')}>
+          <img onClick={() => navigateToPage('/OnConstruction')} src="/buttonIcons/calendarCheck.png" alt="예약 참여" className="h-auto cursor-pointer" />
           <h1 className="text-[#0046af] text-4xl mt-2 pb-6 font-bold">예약 참여</h1>
         </div>
       </div>
