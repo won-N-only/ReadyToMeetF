@@ -56,8 +56,8 @@ function MyPage() {
             {/* 하단 링크 */}
             <div className="w-full max-w-md text-center mt-auto mb-8">
                 <div className="flex flex-col items-center">
-                    <a href="/terms" className="text-[#0046af] mb-2">약관 및 정책</a>
-                    <a href="/withdraw" className="text-[#0046af]">회원 탈퇴</a>
+                    <a href="/onConstruction" className="text-[#0046af] mb-2">약관 및 정책</a>
+                    <a href="/onConstruction" className="text-[#0046af]">회원 탈퇴</a>
                 </div>
             </div>
         </div>
