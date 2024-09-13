@@ -5,7 +5,7 @@ import MyPage from './pages/MyPage';
 import OnConstruction from './pages/OnConstruction'
 import ReservationCreatePage from './pages/Reservation/Create';
 import ReservationListPage from './pages/Reservation/List';
-// import ReservationDetail from './pages/Reservation/Detail';
+import ReservationDetailPage from './pages/Reservation/Detail';
 // import AccountRegister from './pages/Account/Register';
 // import TermsPolicy from './pages/Policy';
 
@@ -19,7 +19,7 @@ function App() {
         <Route path="/OnConstruction" element={<OnConstruction />} />
         <Route path="/ReservationCreatePage" element={<ReservationCreatePage />} />
         <Route path="/ReservationListPage" element={<ReservationListPage />} />
-        {/* <Route path="/Reservation/detail" element={<ReservationDetail />} /> */}
+        <Route path="/ReservationDetailPage" element={<ReservationDetailPage />} />
         {/* <Route path="/account/register" element={<AccountRegister />} /> */}
         {/* <Route path="/terms-policy" element={<TermsPolicy />} /> */}
       </Routes>
