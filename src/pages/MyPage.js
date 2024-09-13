@@ -41,7 +41,7 @@ function MyPage() {
                     <h2 className="text-xl font-bold text-[#0046af]">전화번호 변경</h2>
                 </div>
 
-                <div className="flex items-center mb-4 cursor-pointer" onClick={() => navigateToPage('/OnConstruction')}>
+                <div className="flex items-center mb-4 cursor-pointer" onClick={() => navigateToPage('/ReservationListPage')}>
                     <FaCalendarAlt className="text-3xl text-[#0046af] mr-4" />
                     <h2 className="text-xl font-bold text-[#0046af]">예약 조회</h2>
                 </div>
