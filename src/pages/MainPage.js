@@ -48,7 +48,7 @@ function MainPage() {
         {Array(6).fill(0).map((_, index) => (
           <div key={index} className="grid grid-cols-3 gap-4 py-2 border-b">
             <div>
-              <p className="font-bold text-blue-700">서버에서 resTitle 받아오는걸로 수정해야함</p>
+              <p className="font-bold text-blue-700 cursor-pointer" onClick={() => navigateToPage('/ReservationDetailPage')}>서버에서 resTitle 받아오는걸로 수정해야함</p>
               <p>서버에서 resDate 받아오는걸로 수정해야함</p>
             </div>
             <div>서버에서 resState 받아오는걸로 수정해야함</div>
