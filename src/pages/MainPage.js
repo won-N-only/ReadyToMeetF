@@ -1,6 +1,14 @@
 import React from 'react';
 import { FaUserCircle } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
+
 function MainPage() {
+  const navigate = useNavigate();
+
+  const navigateToMainPage = () => {
+    navigate('/Main');
+  };
+
   return (
     <div className="flex flex-col items-center min-h-screen bg-white px-4">
       {/* 상단 로고와 사용자 아이콘 */}
