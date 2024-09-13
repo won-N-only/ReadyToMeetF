@@ -36,12 +36,12 @@ function MainPage() {
       {/* 진행중인 예약 리스트 틀 */}
       <div className="container mx-auto mt-12 max-w-2xl">
         <h2 className="text-xl font-bold text-[#0046af]">진행중인 예약</h2>
-        <hr className='border-solid 3px mt-3'></hr>
-        <div className="grid grid-cols-3 gap-4 mt-4 text-gray-600">
-          <div className="font-bold">  예    약</div>
-          <div className="font-bold">예약 상태</div>
-          <div className="font-bold">예약자 유형</div>
+        <div className="grid grid-cols-3 gap-4 mt-6 text-gray-600 ">
+          <div className="text-left font-bold ml-4">예&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;약</div>  {/* 왼쪽 정렬 */}
+          <div className="font-bold text-center">예약 상태</div>      {/* 중앙 정렬 */}
+          <div className="font-bold text-center">예약자 유형</div>    {/* 중앙 정렬 */}
         </div>
+        <hr className='border-solid 3px mt-3'></hr>
 
         {/* 세부 항목 */}
         {Array(6).fill(0).map((_, index) => (
@@ -55,7 +55,7 @@ function MainPage() {
           </div>
         ))}
       </div>
-    </div>
+    </div >
   );
 }
 
