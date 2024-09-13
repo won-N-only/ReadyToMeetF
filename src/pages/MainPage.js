@@ -35,7 +35,7 @@ function MainPage() {
 
       {/* 진행중인 예약 리스트 틀 */}
       <div className="container mx-auto mt-12 max-w-2xl">
-        <h2 className="text-xl font-bold text-[#0046af]">진행중인 예약</h2>
+        <h2 className="text-2xl font-extrabold text-[#0046af]">진행중인 예약</h2>
         <div className="grid grid-cols-3 gap-4 mt-6 text-gray-600 ">
           <div className="text-left font-bold ml-4">예&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;약</div>  {/* 왼쪽 정렬 */}
           <div className="font-bold text-center">예약 상태</div>      {/* 중앙 정렬 */}
@@ -44,14 +44,15 @@ function MainPage() {
         <hr className='border-solid 3px mt-3'></hr>
 
         {/* 세부 항목 */}
+        {/* 서버에서 userInfo 받아오는걸로 수정해야함 */}
         {Array(6).fill(0).map((_, index) => (
           <div key={index} className="grid grid-cols-3 gap-4 py-2 border-b">
             <div>
-              <p className="font-bold text-blue-700">예약 제목</p>
-              <p>May 4th, 2024</p>
+              <p className="font-bold text-blue-700">서버에서 resTitle 받아오는걸로 수정해야함</p>
+              <p>서버에서 resDate 받아오는걸로 수정해야함</p>
             </div>
-            <div>예약 상태</div>
-            <div>게스트</div>
+            <div>서버에서 resState 받아오는걸로 수정해야함</div>
+            <div>서버에서 resType 받아오는걸로 수정해야함</div>
           </div>
         ))}
       </div>
